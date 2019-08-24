@@ -14,7 +14,7 @@ for (let i=2;  i <= n; i++) {
         if (i%j) {continue;}
         count++;
     }
-    if (count == 1) {
+    if (count === 1) {
         Mersenn[i] = Math.pow(2,i) - 1;
         console.log(Mersenn[i]);
     }

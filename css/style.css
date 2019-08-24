@@ -50,7 +50,7 @@ html {
     animation: main-rotate 4s infinite linear;
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover > .dropdown-menu {
     display: block;
 }
 
@@ -68,9 +68,9 @@ main {
 }
 
 .feedback {
+    font-family: Arial;
     width: 100%;
     height: auto;
-    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     text-align: justify;
 }
@@ -79,7 +79,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
@@ -87,13 +86,18 @@ main {
 .new_feedback {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .new_feedback textarea {
-    width: 40%;
+    width: 50%;
     height: 200px;
     resize: none;
+}
+
+.new_feedback input {
+    width: 50%;
 }
 
 button {
@@ -128,6 +132,11 @@ hr {
 .add_news textarea {
     width: 55%;
     height: 200px;
+    resize: none;
+}
+
+.author_name {
+    font-weight: 700;
 }
 
 footer {
@@ -136,4 +145,62 @@ footer {
     min-height: 50px;
     position: absolute;
     bottom: 0;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+     border: 1px solid black;
+}
+
+textarea:valid {
+    border: 2px solid green;
+}
+
+textarea:invalid {
+    border: 1px solid black;
+}
+
+.chose_file {
+    width: 100%;
+    opacity: 0;
+}
+
+.chose_file:valid {
+    border: none;
+}
+
+#text_title {
+    width: 50%;
+    color: red;
+    display: none;
+}
+
+#text_news {
+    width: 50%;
+    color: red;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .new_feedback {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new_feedback textarea {
+        width: 80%;
+    }
+
+    .new_feedback input {
+        width: 80%;
+    }
+
+    button {
+        margin-top: 15px;
+        width: 30%;
+        align-self: center;
+    }
 }
