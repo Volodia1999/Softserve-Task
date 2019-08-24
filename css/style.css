@@ -184,6 +184,10 @@ textarea:invalid {
     display: none;
 }
 
+table {
+    margin-top: 80px;
+}
+
 @media screen and (max-width: 768px) {
     .new_feedback {
         flex-direction: column;
