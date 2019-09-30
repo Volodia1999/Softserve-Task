@@ -109,6 +109,10 @@ hr {
     border-top: 2px solid #000;
 }
 
+.added-new {
+    background-color: white;
+}
+
 .add_image {
     display: flex;
     justify-content: flex-start;
@@ -147,26 +151,13 @@ footer {
     bottom: 0;
 }
 
-input:valid {
-    border: 2px solid green;
+.button {
+    border: none;
 }
 
-input:invalid {
-     border: 1px solid black;
-}
-
-textarea:valid {
-    border: 2px solid green;
-}
-
-textarea:invalid {
-    border: 1px solid black;
-}
-
-.chose_file {
+/*.chose_file {
     width: 100%;
-    opacity: 0;
-}
+}*/
 
 .chose_file:valid {
     border: none;

@@ -94,9 +94,13 @@
     <div class='container'>
         <div class='row'>
             <div class='new_feedback'>
-                <input id='author_name' type='text' placeholder='Your name' class='ml-3 mb-3' required>
-                <textarea id='fan_appeal' placeholder='Write an appeal ...' class='ml-3' required></textarea>
-                <button class='btn btn-primary ml-5' onclick='Click()'>Send</button>
+                <input id='author_name' type='text' placeholder='Your name' class='ml-3 mb-3'>
+                <textarea id='fan_appeal' placeholder='Write an appeal ...' class='ml-3'></textarea>
+                <button class='btn btn-primary ml-5' id='button_appeal'>Send</button>
+                <button class='btn btn-primary ml-2' id='button_appeal_clear'>Clear LS</button>
+                <div id='alert' class='alert alert-success mb-3' style='display: none'>
+                   Ваше повідомлення обробляється сервером. Дякуємо за ваш відгук!
+                </div>
             </div>
         </div>
     </div>
@@ -108,7 +112,8 @@
     © Copyright 2019. Всі права захищені | Виконав revuravova@gmail.com
 </footer>
 
-<script src='js/fans_appeal.js'></script>
+<script src='js/add_fan_appeal.js'></script>
+<script src='js/fan_appeal_bd.js'></script>
 
 </body>
 </html>

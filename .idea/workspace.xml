@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/Admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fans.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fans.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/News.html" beforeDir="false" afterPath="$PROJECT_DIR$/News.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/add_news.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/add_news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fans_appeal.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,23 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="188" />
-    <option name="y" value="39" />
-    <option name="width" value="697" />
-    <option name="height" value="728" />
-  </component>
   <component name="ProjectId" id="1PVgzPKxC8PBPpOjODv3Awzn31z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Робочий стіл\Web_tasks\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,7 +84,21 @@
       <workItem from="1566055329433" duration="30000" />
       <workItem from="1566075934130" duration="5015000" />
       <workItem from="1566149254371" duration="170000" />
-      <workItem from="1566640696894" duration="14809000" />
+      <workItem from="1566640696894" duration="15337000" />
+      <workItem from="1566895633121" duration="795000" />
+      <workItem from="1566978374611" duration="91000" />
+      <workItem from="1567889529663" duration="2903000" />
+      <workItem from="1567961426378" duration="5738000" />
+      <workItem from="1567968147020" duration="722000" />
+      <workItem from="1568208218569" duration="6006000" />
+      <workItem from="1568220691426" duration="7071000" />
+      <workItem from="1568273018198" duration="9815000" />
+      <workItem from="1568532570500" duration="6548000" />
+      <workItem from="1568572033608" duration="81000" />
+      <workItem from="1569432682403" duration="7817000" />
+      <workItem from="1569758316704" duration="8867000" />
+      <workItem from="1569767325513" duration="1592000" />
+      <workItem from="1569834084743" duration="14391000" />
     </task>
     <servers />
   </component>
